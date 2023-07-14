@@ -31,27 +31,9 @@
 .content a:hover {
   background-color: var(--primary-color);
   color: #fff;
-  border-color: #fff;
+  border-color: var(--primary-color);
 }
 
-.stepBox {
-  background-color: #000;
-  padding: 20px 20px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.stepBox h1 {
-  font-size: 50px;
-  font-weight: bold;
-  color: var(--primary-color);
-}
-
-.stepBox p {
-  font-size: 20px;
-  font-style: italic;
-  color: #fff;
-}
 
 .highlight {
   color: var(--primary-color);
@@ -61,20 +43,32 @@
 }
 
 .foodbox {
-  padding: 10px 5px;
+  overflow: hidden;
+  margin: 0 auto;
+  width: auto;
 }
 
 .foodbox img {
   width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 5px;
+  transition: 0.1s all ease-in-out;
+  height: 300px;
+}
+
+.proimg {
+  height: 300px;
+  overflow: hidden;
+}
+
+.foodbox:hover img {
+  transform: scale(1.2);
 }
 
 .foodbox h1 {
   font-size: 18px;
   margin-top: 20px;
   font-weight: bold;
+  border-radius: 5px;
+
 }
 
 .viewmorebtn {
