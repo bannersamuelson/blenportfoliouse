@@ -20,15 +20,18 @@
 
 .content a {
   text-decoration: none;
-  background-color: #fff;
+  background-color: transparent;
   color: var(--primary-color);
   padding: 15px 20px;
   border-radius: 5px;
+  border-color: var(--primary-color);
+  border: 2px solid;
 }
 
 .content a:hover {
   background-color: var(--primary-color);
   color: #fff;
+  border-color: #fff;
 }
 
 .stepBox {
