@@ -1,9 +1,10 @@
 .banner {
   background-image: url(/assets/img/rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
-  height: 600px;
-  background-position: center top;
+  height: 100vh;
+  background-position: fixed top;
   background-size: cover;
   align-items: center;
+  position: relative;
 }
 
 .content h1 {
@@ -103,6 +104,7 @@
   background-position: center top;
   background-size: cover;
   align-items: center;
+
 }
 
 .contactbtn h1 {

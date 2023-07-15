@@ -6,3 +6,8 @@
   color: var(--primary-color);
   text-decoration: underline;
 }
+
+.navbar {
+  margin: 20px;
+  width: auto;
+}
