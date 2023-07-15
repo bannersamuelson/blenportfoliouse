@@ -15,7 +15,10 @@ export class ProjectDetailsService {
       foodName: "Paneer Grilled Sandwich",
       foodDetails: "Pan-fried masala paneer.",
       foodPrice: 200,
-      foodImg: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wzfq7djolqxgdhghebbq"
+      foodImg: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wzfq7djolqxgdhghebbq",
+      foodImg2: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wzfq7djolqxgdhghebbq",
+      foodImg3: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wzfq7djolqxgdhghebbq"
+
     },
     {
       id: 2,
