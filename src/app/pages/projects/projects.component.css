@@ -16,12 +16,17 @@
 }
 
 .buybtn {
-
-  color: #000;
-  background-color: var(--primary-color);
-  padding: 10px 10px;
   text-decoration: none;
-  font-size: 16px;
+  background-color: transparent;
+  color: #000;
+  padding: 5px 10px;
   border-radius: 5px;
-  cursor: pointer;
+  border-color: var(--primary-color);
+  border: 2px solid;
+}
+
+.buybtn:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
 }
