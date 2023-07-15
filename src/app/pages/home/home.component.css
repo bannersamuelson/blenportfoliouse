@@ -75,9 +75,13 @@
 
 }
 
-@media screen and (max-width:600px) {
+@media screen and (min-width:1000px) {
   .banner {
     height: 700px;
+  }
+
+  .bggrid {
+    padding: 100px 300px;
   }
 }
 
@@ -86,6 +90,39 @@
 }
 
 .brands {
-
   font-size: 36px;
+}
+
+
+/* Photo by <a href="https://unsplash.com/@and_machines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">and machines</a> on <a href="https://unsplash.com/photos/vqTWfa4DjEk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   */
+
+.contact {
+  background-image: url(../../../assets/palm.jpg);
+  height: 600px;
+  background-position: center top;
+  background-size: cover;
+  align-items: center;
+}
+
+.contactbtn h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.contactbtn a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border-color: var(--primary-color);
+  border: 2px solid;
+}
+
+.contactbtn a:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
 }
