@@ -1,5 +1,5 @@
 .banner {
-  background-image: url(../home/img/rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
+  background-image: url(/assets/img/rohit-tandon-9wg5jCEPBsw-unsplash.jpg);
   height: 600px;
   background-position: center top;
   background-size: cover;
@@ -177,4 +177,8 @@
 
 .bggrid {
   background-color: black;
+}
+
+.img1 {
+  height: 300px
 }
