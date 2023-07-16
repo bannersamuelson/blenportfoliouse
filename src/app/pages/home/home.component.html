@@ -7,26 +7,27 @@
 
 <!-- foodbox  -->
 <div class="mx-5 my-5">
-  <h1 class="text-center m4">Featured Projects</h1>
+  <h1 class="text-center m4">Works</h1>
   <div class="row">
     <div class="col-lg-3 mt-3" *ngFor="let fd of foodData;index as i">
       <div class="foodbox" *ngIf="i<=3">
         <div class="proimg">
-          <img n src="{{fd.foodImg}}" />
+          <a [routerLink]="['/projects',fd.id]"><img n src="{{fd.foodImg}}" /></a>
         </div>
-        <div>
-          <h1>{{fd.foodName}}</h1>
+        <div class="viewmore">
+          <h1><a [routerLink]="['/projects',fd.id]">{{fd.foodName}}<i class="bi bi-arrow-right"></i></a>
+          </h1>
         </div>
       </div>
     </div>
   </div>
-  <a routerLink="projects" class="viewmorebtn">view works <i class="bi bi-arrow-right"></i></a>
+  <a routerLink="projects" class="viewmorebtn">view more</a>
 </div>
 
 <!-- brands I've worked with -->
 <div class="bggrid">
   <div class="p-5 row">
-    <p class="brands text-center text-white">Some brands I've worked with:</p>
+    <p class="pb-4 brands text-center text-white">Some brands I've worked with:</p>
     <div class="col-12 col-sm-6 col-md-4" alt="amazon prime">
       <img src="../../../assets/amazonprime.png" alt="hello" class="px-5 py-1 img-fluid" />
     </div>
@@ -60,7 +61,7 @@
 <div class="my-5 py-5 row">
   <div class="py-5">
     <h1 class="my-5 col-12 text-center">Where I'm at:</h1>
-    <div class="text-center mt-3 mb-3">
+    <div class="text-center mt-3 mb-3 where">
       <a href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
       <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
       <a href="#" target="_blank"><i class="bi bi-envelope"></i></a>

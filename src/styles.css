@@ -11,4 +11,10 @@
 body {
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f1e6;
+}
+
+@font-face {
+  font-family: 'Cavergiz';
+  src: url('./assets/Cavergiz-BF644a15f792a4a.ttf');
 }

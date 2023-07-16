@@ -7,9 +7,19 @@
   position: relative;
 }
 
+.viewmore a {
+  text-decoration: none;
+  color: #000
+}
+
+.viewmore a:hover {
+  color: grey;
+}
+
 .content h1 {
   color: #fff;
   font-size: 60px;
+  font-family: Cavergiz;
 }
 
 .content a {
@@ -140,12 +150,17 @@
 }
 
 
-i {
+.where i {
   padding: 0px 20px;
   color: black;
   font-size: 2rem;
 }
 
-i:hover {
+i {
+  padding: 0px 10px;
+  color: black;
+}
+
+.where i:hover {
   color: grey;
 }
