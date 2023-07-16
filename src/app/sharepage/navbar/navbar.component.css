@@ -2,16 +2,17 @@
   color: #000;
 }
 
-
-
 .navbar .navbar-nav .nav-link.active-link {
   text-decoration: underline;
 }
 
 .navbar {
   position: absolute;
-  top: 50px;
+  top: 0px;
   width: 100%;
   z-index: 9999;
+}
 
+.navbar-collapse .collapse {
+  background-color: black;
 }
