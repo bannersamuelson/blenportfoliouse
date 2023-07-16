@@ -1,8 +1,16 @@
-.navbar-light .navbar-nav .nav-link {
-  color: var(--secondary-color);
+.navbar .navbar-nav .nav-link {
+  color: #fff;
 }
 
-.navbar-light .navbar-nav .nav-link.active-link {
+.navbar .navbar-nav .nav-link.active-link {
   color: var(--primary-color);
   text-decoration: underline;
+}
+
+.navbar {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 9999;
+
 }
