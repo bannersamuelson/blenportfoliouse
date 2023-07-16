@@ -2,6 +2,8 @@
   color: #fff;
 }
 
+
+
 .navbar .navbar-nav .nav-link.active-link {
   color: var(--primary-color);
   text-decoration: underline;
@@ -9,7 +11,7 @@
 
 .navbar {
   position: absolute;
-  top: 0px;
+  top: 50px;
   width: 100%;
   z-index: 9999;
 
