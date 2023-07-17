@@ -9,7 +9,8 @@
 }
 
 h1 {
-  font-family: Cavergiz;
+  font-family: aperculight;
+  font-weight: lighter;
 }
 
 .viewmore a {
@@ -22,9 +23,9 @@ h1 {
 }
 
 .content h1 {
-  color: #fff;
   font-size: 60px;
-  font-family: Cavergiz;
+  font-family: aperculight;
+  font-weight: lighter;
 }
 
 .content a {
