@@ -18,3 +18,9 @@ body {
   font-family: 'Cavergiz';
   src: url('./assets/Cavergiz-BF644a15f792a4a.ttf');
 }
+
+h1 {
+  color: #fff;
+  font-size: 60px;
+  font-family: Cavergiz;
+}

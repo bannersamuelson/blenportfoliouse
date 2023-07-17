@@ -17,7 +17,7 @@ h1 {
   color: #000
 }
 
-.viewmore a:hover {
+.viewmore:hover {
   text-decoration: underline;
 }
 
