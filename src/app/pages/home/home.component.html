@@ -1,29 +1,33 @@
 <div class="d-flex justify-content-center banner">
   <div class="text-center content">
-    <h1 class="description px-5 mb-5">Blen Amare is a multimedia designer <br />living and working in Alexandria, VA
+    <h1 class="description px-5 mb-5">Blen Amare is a multimedia designer living and working in Alexandria, VA
     </h1>
     <a routerLink="projects">See Projects</a>
   </div>
 </div>
 
 <!-- foodbox  -->
-<div class="mx-5 my-5">
-  <h1 class="text-center m4">Works</h1>
-  <div class="row my-3">
-    <div class="col-lg-3 mt-3" *ngFor="let fd of foodData;index as i">
-      <div class="my-3 foodbox" *ngIf="i<=3">
-        <div class="proimg">
-          <a [routerLink]="['/projects',fd.id]"><img n src="{{fd.foodImg}}" /></a>
+<div class="container">
+  <div class="row justify-content-center mx-5 my-5">
+    <h1 class="text-center my-4">Works</h1>
+    <div class="col-10 col-sm-8 col-md-6 mx-auto">
+      <div class="my-3 mx-auto mt-3" *ngFor="let fd of foodData;index as i">
+        <div class="col-4 my-3 foodbox" *ngIf="i<=3">
+          <div class="proimg">
+            <a [routerLink]="['/projects',fd.id]"><img n src="{{fd.foodImg}}" /></a>
+          </div>
+          <div class="mt-2 mb-5 viewmore">
+            <h5 class="mt-4"><a [routerLink]="['/projects',fd.id]">{{fd.foodName}}<i class="bi bi-chevron-right"></i>
+              </a>
+            </h5>
+          </div>
         </div>
-        <div class="my-2 viewmore">
-          <h5 class="mt-4"><a [routerLink]="['/projects',fd.id]">{{fd.foodName}}<i class="bi bi-chevron-right"></i>
-            </a>
-          </h5>
-        </div>
+      </div>
+      <div>
+        <a routerLink="projects" class="my-5 text-center viewmorebtn">view more</a>
       </div>
     </div>
   </div>
-  <a routerLink="projects" class="viewmorebtn">view more</a>
 </div>
 
 <!-- brands I've worked with -->
@@ -31,22 +35,22 @@
   <div class="p-5 row">
     <h1 class="pb-4 brands text-center text-white">Some brands I've worked with:</h1>
     <div class="col-12 col-sm-6 col-md-4" alt="amazon prime">
-      <img src="../../../assets/amazonprime.png" alt="hello" class="px-5 py-1 img-fluid" />
-    </div>
-    <div class="col-12 col-sm-6 col-md-4">
-      <img src="../../../assets/christopherfareed.png" class="px-5 py-1 img-fluid" alt="curiosity stream image">
-    </div>
-    <div class="col-12 col-sm-6 col-md-4">
-      <img src="../../../assets/curiositystream.png" class="px-5 py-1 img-fluid" alt="gartner image">
+      <img src="../../../assets/amazonprime.png" alt="amazon prime" class="px-5 py-3 img-fluid" />
     </div>
     <div class="col-12 col-sm-6 col-md-4" alt="amazon prime">
-      <img src="../../../assets/Gartner.png" alt="hello" class="px-5 py-1 img-fluid" />
+      <img src="../../../assets/Gartner.png" alt="Gartner" class="px-5 py-1 img-fluid" />
     </div>
     <div class="col-12 col-sm-6 col-md-4">
-      <img src="../../../assets/geneia.png" class="px-5 py-1 img-fluid" alt="curiosity stream image">
+      <img src="../../../assets/curiositystream.png" class="px-5 py-1 img-fluid" alt="curiosity stream">
     </div>
     <div class="col-12 col-sm-6 col-md-4">
-      <img src="../../../assets/messiahuniversity.png" class="px-5 py-1 img-fluid" alt="gartner image">
+      <img src="../../../assets/christopherfareed.png" class="px-5 py-1 img-fluid" alt="christopher fareed image">
+    </div>
+    <div class="col-12 col-sm-6 col-md-4">
+      <img src="../../../assets/geneia.png" class="px-5 py-1 img-fluid" alt="geneia image">
+    </div>
+    <div class="col-12 col-sm-6 col-md-4">
+      <img src="../../../assets/messiahuniversity.png" class="px-5 py-1 img-fluid" alt="messiah image">
     </div>
   </div>
 </div>
@@ -60,13 +64,15 @@
 </div>
 
 <!-- where I'm at -->
-<div class="my-5 py-5 row">
-  <div class="pb-5">
-    <h1 class="mb-3 col-12 text-center">Where I'm at:</h1>
-    <div class="text-center mb-5 where">
-      <a href="https://www.linkedin.com/in/blen-asres-a800b6100/" target="_blank"><i class="bi bi-linkedin"></i></a>
-      <a href="https://www.instagram.com/bilu_asres/" target="_blank"><i class="bi bi-instagram"></i></a>
-      <a href="mailto:blenasres@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+<div class="container">
+  <div class="my-5 row">
+    <div class="mb-5 mt-4">
+      <h1 class="mb-3 col-12 text-center">Where I'm at:</h1>
+      <div class="text-center mb-5 where">
+        <a href="https://www.linkedin.com/in/blen-asres-a800b6100/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/bilu_asres/" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="mailto:blenasres@gmail.com" target="_blank"><i class="bi bi-envelope"></i></a>
+      </div>
     </div>
   </div>
 </div>
