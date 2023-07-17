@@ -4,10 +4,9 @@
 
     <div class="col-lg-4" *ngFor="let fd of foodData">
 
-      <div class="foodbox mt-3 mb-3">
+      <div class="foodbox my-4">
         <img src="{{fd.foodImg}}">
         <h1>{{fd.foodName}}</h1>
-        <br />
         <a class="buybtn" [routerLink]="['/projects',fd.id]">See details</a>
       </div>
 

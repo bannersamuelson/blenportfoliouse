@@ -9,14 +9,15 @@
 <!-- foodbox  -->
 <div class="mx-5 my-5">
   <h1 class="text-center m4">Works</h1>
-  <div class="row">
+  <div class="row my-3">
     <div class="col-lg-3 mt-3" *ngFor="let fd of foodData;index as i">
-      <div class="foodbox" *ngIf="i<=3">
+      <div class="my-3 foodbox" *ngIf="i<=3">
         <div class="proimg">
           <a [routerLink]="['/projects',fd.id]"><img n src="{{fd.foodImg}}" /></a>
         </div>
-        <div class="viewmore">
-          <h5><a [routerLink]="['/projects',fd.id]">{{fd.foodName}}<i class="bi bi-arrow-right"></i></a>
+        <div class="my-2 viewmore">
+          <h5 class="mt-4"><a [routerLink]="['/projects',fd.id]">{{fd.foodName}}<i class="bi bi-chevron-right"></i>
+            </a>
           </h5>
         </div>
       </div>

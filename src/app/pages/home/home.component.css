@@ -1,3 +1,4 @@
+/* background immage */
 .banner {
   background-image: url(../../../assets/palm.jpg);
   height: 100vh;
@@ -17,7 +18,7 @@ h1 {
 }
 
 .viewmore a:hover {
-  color: grey;
+  text-decoration: underline;
 }
 
 .content h1 {
@@ -81,35 +82,22 @@ h1 {
 
 .viewmorebtn {
   text-decoration: none;
-  background-color: var(--primary-color);
-  color: #fff;
-  padding: 10px 10px;
+  background-color: transparent;
+  color: #000;
+  padding: 15px 20px;
   border-radius: 5px;
-  font-size: 18px;
-
+  border-color: #000;
+  border: 2px solid;
 }
 
-@media screen and (min-width:1300px) {
-  .banner {
-    height: 700px;
-  }
-
-  .bggrid {
-    padding: 100px 200px;
-  }
-}
-
-@media screen and (max-width:700px) {
-  .content h1 {
-    color: #fff;
-    font-size: 30px;
-    font-weight: light;
-  }
-
+.viewmorebtn:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
 }
 
 
-
+/* brands */
 .bggrid {
   background-color: black;
 }
@@ -119,9 +107,7 @@ h1 {
 }
 
 
-/* Photo by <a href="https://unsplash.com/@and_machines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">and machines</a> on <a href="https://unsplash.com/photos/vqTWfa4DjEk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   */
-
+/* contact section */
 .contact {
   background-image: url(../../../assets/palm.jpg);
   height: 600px;
@@ -163,8 +149,31 @@ h1 {
 i {
   padding: 0px 10px;
   color: black;
+  position: relative;
+  top: 2px;
 }
 
 .where i:hover {
   color: grey;
 }
+
+@media screen and (min-width:1300px) {
+  .banner {
+    height: 700px;
+  }
+
+  .bggrid {
+    padding: 100px 200px;
+  }
+}
+
+@media screen and (max-width:700px) {
+  .content h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: light;
+  }
+}
+
+/* Photo by <a href="https://unsplash.com/@and_machines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">and machines</a> on <a href="https://unsplash.com/photos/vqTWfa4DjEk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
