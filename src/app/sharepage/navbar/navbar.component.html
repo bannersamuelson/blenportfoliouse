@@ -30,31 +30,42 @@
   </div>
 </nav> -->
 <div class="navigation">
+
   <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
   <label for="nav-toggle" class="navigation__button">
     <span class="navigation__icon" aria-label="toggle navigation menu"></span>
   </label>
-  <div class="navigation__background"></div>
+  <a class="navbar-brand" routerLink="/">Blen Amare</a>
 
+  <div class="navigation__background"></div>
   <nav class="navigation__nav" role="navigation">
     <ul class="navigation__list">
       <li class="navigation__item">
-        <a><label for="nav-toggle" class="navigation__button" routerLink="" class="navigation__link">HOME</label></a>
-      </li>
-      <li class="navigation__item">
-        <a><label for="nav-toggle" class="navigation__button" routerLink="projects" class="navigation__link">
-            <h2>PROJECTS</h2>
+        <a><label for="nav-toggle" class="navigation__button" routerLink="" class="navigation__link">
+            <h1 class="text-black">HOME</h1>
           </label></a>
       </li>
       <li class="navigation__item">
-        <a><label for="nav-toggle" class="navigation__button" routerLink="about"
-            class="navigation__link">ABOUT</label></a>
+        <a><label for="nav-toggle" class="navigation__button" routerLink="projects" class="navigation__link">
+            <h1 class="text-black">PROJECTS</h1>
+          </label></a>
       </li>
       <li class="navigation__item">
-        <a><label for="nav-toggle" class="navigation__button" routerLink="contact"
-            class="navigation__link">CONTACT</label></a>
+        <a><label for="nav-toggle" class="navigation__button" routerLink="about" class="navigation__link">
+            <h1 class="text-black">ABOUT</h1>
+          </label></a>
+      </li>
+      <li class="navigation__item">
+        <a><label for="nav-toggle" class="navigation__button" routerLink="contact" class="navigation__link">
+            <h1 class="text-black">CONTACT</h1>
+          </label></a>
+      </li>
+      <li class="navigation__item my-5">
+        <a><label for="nav-toggle" class="navigation__button" href="https://www.instagram.com/bilu_asres/"
+            target="_blank" class="navigation__link">
+            <i class="bi bi-instagram"></i>
+          </label></a>
       </li>
     </ul>
   </nav>
-  <span id="by">&copySthéffaneNunes</span>
 </div>

@@ -1,20 +1,17 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html,
 body {
-  height: 100vh;
-}
-
-body {
-  background-color: #C1D0D0;
-  font-family: Roboto, Arial, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* logo */
+.navbar-brand {
+  top: 5rem;
+  left: 3rem;
+  height: 5rem;
+  width: 5rem;
+  position: fixed;
+  z-index: 9999;
 }
 
 .navigation__checkbox {
@@ -28,11 +25,11 @@ body {
   height: 5rem;
   width: 5rem;
   text-align: center;
-  background-color: #fff;
   border-radius: 50%;
   z-index: 300;
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  background-color: #f4f1e6;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -51,7 +48,7 @@ body {
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
-  background: #4A676A;
+  background: #f4f1e6;
   background-size: cover;
   background-position: center;
   z-index: 100;
@@ -103,6 +100,7 @@ body {
   font-size: 2.4rem;
   text-decoration: none;
   transition: all .2s;
+  cursor: pointer;
 }
 
 @media(min-width: 768px) {
@@ -113,13 +111,10 @@ body {
   }
 }
 
-.navigation__link span {
-  font: 2rem;
-}
-
 .navigation__link:hover {
-  color: #C1D0D0;
-  transform: scale(1.1);
+  text-decoration: underline;
+  cursor: pointer;
+
 }
 
 .navigation__checkbox:checked~.navigation__background {
@@ -148,9 +143,9 @@ body {
 .navigation__icon::before,
 .navigation__icon::after {
   display: inline-block;
-  width: 2.2rem;
-  height: 2px;
-  background-color: #4A676A;
+  width: 2.3rem;
+  height: 3px;
+  background-color: #000;
 }
 
 @media (min-width: 768px) {
@@ -171,11 +166,11 @@ body {
 }
 
 .navigation__icon::before {
-  top: -.8rem;
+  top: -.6rem;
 }
 
 .navigation__icon::after {
-  top: .8rem;
+  top: .6rem;
 }
 
 .navigation__button:hover .navigation__icon::before {
@@ -200,21 +195,12 @@ body {
   transform: rotate(-135deg);
 }
 
-
-
-/*-----------------------*/
-#by {
-  font-family: 'Arima Madurai', cursive;
-  color: #4A676A;
-  font-size: 10px;
-  position: absolute;
-  top: 22%;
-  right: 2.5%;
+i {
+  padding: 0px 20px;
+  color: black;
+  font-size: 2rem;
 }
 
-/*
-light-blue: #C1D0D0;
-dark-blue: #4A676A;
-cream: #FFEAA5;
-yellow: #FFB037;
-*/
+i:hover {
+  color: grey;
+}
