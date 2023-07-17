@@ -173,6 +173,10 @@ i {
     font-size: 30px;
     font-weight: light;
   }
+
+  .bggrid {
+    padding: 50px;
+  }
 }
 
 /* Photo by <a href="https://unsplash.com/@and_machines?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">and machines</a> on <a href="https://unsplash.com/photos/vqTWfa4DjEk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
