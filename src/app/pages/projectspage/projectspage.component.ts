@@ -17,7 +17,7 @@ export class ProjectspageComponent implements OnInit {
     this.getMenuId = this.param.snapshot.paramMap.get('id');
     console.log(this.getMenuId, 'getmenu');
     if (this.getMenuId) {
-      this.menuData = this.service.foodDetails.filter((value) => {
+      this.menuData = this.service.projectDetails.filter((value) => {
         return value.id == this.getMenuId;
       });
       console.log(this.menuData, 'menudata>>');

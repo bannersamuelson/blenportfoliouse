@@ -1,20 +1,20 @@
-form {
-  margin-top: 10%;
-  width: 50%;
+.backbtn {
+  text-decoration: none;
+  color: black
 }
 
-img {
-  width: 100%;
-  height: 500px;
+.backbtn:hover {
+  text-decoration: underline;
+}
+
+i {
+  padding: 0px 10px 0px 0px;
+  color: black;
+  position: relative;
+  top: 1px;
+}
+
+.banner img {
+  max-height: 300px;
   object-fit: cover;
-}
-
-@media screen and (max-width:600px) {
-  form {
-    width: 100%;
-  }
-}
-
-.navbar .navbar-nav .nav-link {
-  color: #000;
 }

@@ -8,7 +8,6 @@ body {
 .navbar-brand {
   top: 5rem;
   left: 3rem;
-  height: 5rem;
   width: 5rem;
   position: fixed;
   z-index: 9999;
@@ -203,4 +202,8 @@ i {
 
 i:hover {
   color: grey;
+}
+
+h1 {
+  font-size: xx-large;
 }

@@ -1,13 +1,37 @@
-<div class="container mt-5 mb-5">
-
-  <div class="row" *ngIf="menuData">
-    <h1>{{menuData[0].foodName}}</h1>
-    <p>{{menuData[0].foodDetails}}</p>
-    <div class="col-lg-6" *ngIf="menuData">
-      <img src="{{menuData[0].foodImg}}" width="100%" />
+<div class="container mt-5 mb-5 p-5">
+  <div class="pt-5 row" *ngIf="menuData">
+    <a class="pb-3 backbtn" routerLink="/projects"><i class="bi bi-chevron-left"></i>All projects</a>
+    <h1 class="text-black">{{menuData[0].projectName}}</h1>
+    <p>{{menuData[0].projectDetails}}</p>
+    <div class="banner py-5 col-12" *ngIf="menuData">
+      <img src="{{menuData[0].projectImg}}" class="img-fluid" width="100%" />
     </div>
-    <div class="col-lg-6" *ngIf="menuData">
-      <img src="{{menuData[0].foodImg2}}" width="100%" />
+    <div class="col-lg-6 py-2" *ngIf="menuData">
+      <img src="{{menuData[0].projectImg1}}" class="img-fluid" width="100%" />
+    </div>
+    <div class="col-lg-6 py-2" *ngIf="menuData">
+      <img src="{{menuData[0].projectImg2}}" class="img-fluid" width="100%" />
+    </div>
+    <div class="col-lg-6 py-2" *ngIf="menuData">
+      <img src="{{menuData[0].projectImg3}}" class="img-fluid" width="100%" />
+    </div>
+    <div class="col-lg-6 py-2" *ngIf="menuData">
+      <img src="{{menuData[0].projectImg4}}" class="img-fluid" width="100%" />
+    </div>
+    <div class="col-lg-6 py-2" *ngIf="menuData">
+      <img src="{{menuData[0].projectImg5}}" class="img-fluid" width="100%" />
+    </div>
+    <div class="col-lg-6 py-2" *ngIf="menuData">
+      <img src="{{menuData[0].projectImg6}}" class="img-fluid" width="100%" />
+    </div>
+    <div class="col-lg-6 py-2" *ngIf="menuData">
+      <img src="{{menuData[0].projectImg7}}" class="img-fluid" width="100%" />
+    </div>
+    <div class="col-lg-6 py-2" *ngIf="menuData">
+      <img src="{{menuData[0].projectImg8}}" class="img-fluid" width="100%" />
+    </div>
+    <div class="col-lg-6 py-2" *ngIf="menuData">
+      <img src="{{menuData[0].projectImg9}}" class="img-fluid" width="100%" />
     </div>
   </div>
 </div>
