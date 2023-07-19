@@ -61,16 +61,12 @@ h1 {
 .foodbox img {
   width: 100%;
   transition: 0.1s all ease-in-out;
-  height: 300px;
+  /* height: 300px; */
 }
 
 .proimg {
-  height: 300px;
+  /* height: 300px; */
   overflow: hidden;
-}
-
-.foodbox:hover img {
-  transform: scale(1.2);
 }
 
 .foodbox h1 {

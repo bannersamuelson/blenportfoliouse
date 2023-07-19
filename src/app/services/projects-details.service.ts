@@ -26,7 +26,7 @@ export class ProjectDetailsService {
       projectImg9: "../../assets/curiosity/goingocular.jpeg",
       projectImg10: "../../assets/curiosity/JFK.jpeg",
       projectImg11: "../../assets/curiosity/lightonearth.jpeg",
-      projectImg12: "../../assets/curiosity/naturesflightclub.jpeg",
+      projectImg12: "../../assets/curiosity/naturesfightclub.jpeg",
       projectImg13: "../../assets/curiosity/winattrivianight.jpeg",
     },
     {
