@@ -1,13 +1,13 @@
 .navbar-light .navbar-nav .nav-link {
-  color: var(--third-color);
-}
-
-.navbar-light .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
 }
 
-.navbar-light .navbar-nav .nav-link.active-link {
+.navbar-light .navbar-nav .nav-link:hover {
   color: var(--fourth-color);
+}
+
+.navbar-light .navbar-nav .nav-link.active-link {
+  color: var(--third-color);
 }
 
 .navbar-brand img {
@@ -21,23 +21,14 @@
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(288, 88, 80)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-.nav-link:focus {
-  text-underline-offset: 8px;
-}
 
 .nav-link:hover {
-  text-underline-offset: 8px;
   color: var(--primary-color);
 }
 
 
-.nav-link {
-  text-underline-offset: 8px;
-  color: var(--fourth-color);
-}
-
 .navbar {
-  background-color: var(--primary-color);
+  background-color: var(--fifth-color);
 }
 
 

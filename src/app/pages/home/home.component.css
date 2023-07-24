@@ -11,7 +11,6 @@
 
 h1 {
   font-weight: lighter;
-  color: var(--third-color)
 }
 
 .viewmore a {
@@ -53,6 +52,10 @@ h1 {
   text-decoration: underline;
 }
 
+.proimg {
+  overflow: hidden;
+}
+
 .foodbox h1 {
   font-size: 18px;
   margin-top: 20px;
@@ -65,6 +68,18 @@ h1 {
   height: 250px;
   object-fit: cover;
   border-radius: 5px;
+}
+
+.foodbox img:hover {
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -moz-transform: scale(1.5);
+  /* Firefox */
+  -webkit-transform: scale(1.5);
+  /* Safari and Chrome */
+  -o-transform: scale(1.5);
+  /* Opera */
 }
 
 .viewmorebtn {
@@ -180,4 +195,35 @@ i {
 
 .navbar .navbar-toggler:focus {
   color: #ff4444;
+}
+
+#spin {
+  color: var(--third-color);
+}
+
+#spin:after {
+  content: "Visual";
+  animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    content: "Visual";
+  }
+
+  20% {
+    content: "Graphic";
+  }
+
+  40% {
+    content: "Product";
+  }
+
+  60% {
+    content: "Brand";
+  }
+
+  80% {
+    content: "Presentation";
+  }
 }
