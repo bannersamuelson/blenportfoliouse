@@ -17,22 +17,6 @@
   z-index: 2;
 }
 
-.navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(288, 88, 80)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-
-.nav-link:hover {
-  color: var(--primary-color);
-}
-
-
-.navbar {
-  background-color: var(--fifth-color);
-}
-
-
-
 @media screen and (max-width:990px) {
 
   .navbar-collapse.show,
@@ -61,5 +45,56 @@
 .navbar-toggler-icon:focus {
   outline: none;
   box-shadow: none;
-  border-color: var(--third-color);
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+  background-color: var(--secondary-color);
+  height: 3px;
+  width: 25px;
+  margin: 10px 0;
+  position: relative;
+  transition: all 0.35s ease-out;
+  transform-origin: center;
+}
+
+.navbar-toggler-icon::before {
+  display: block;
+  background-color: var(--secondary-color);
+  height: 3px;
+  content: "";
+  position: relative;
+  top: -7px;
+  transition: all 0.15s ease-out;
+  /*taken down to hide quicker*/
+  transform-origin: center;
+}
+
+.navbar-toggler-icon::after {
+  display: block;
+  background-color: var(--secondary-color);
+  height: 3px;
+  content: "";
+  position: relative;
+  top: 4px;
+  transition: all 0.35s ease-out;
+  transform-origin: center;
+}
+
+.navbar-dark .navbar-toggler-icon,
+.navbar-dark .navbar-toggler-icon::before,
+.navbar-dark .navbar-toggler-icon::after {
+  background-color: var(--color-primary);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::before {
+  opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
+  transform: rotate(-90deg) translateX(7px);
 }
