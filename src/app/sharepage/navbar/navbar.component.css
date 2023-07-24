@@ -3,7 +3,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--fourth-color);
+  color: var(--fifth-color);
 }
 
 .navbar-light .navbar-nav .nav-link.active-link {

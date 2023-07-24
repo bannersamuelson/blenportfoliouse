@@ -4,12 +4,6 @@
   background-position: fixed top;
 }
 
-
-/* h1 {
-  font-weight: lighter;
-} */
-
-
 .viewmore a {
   text-decoration: none;
   color: var(--primary-color)
@@ -22,7 +16,6 @@
 .content h1 {
   font-size: 60px;
   font-family: aperculight;
-  font-weight: lighter;
 }
 
 .content a {
@@ -99,7 +92,7 @@
 
 /* brands */
 .bggrid {
-  background-color: var(--fourth-color);
+  background-color: black;
 }
 
 .brands {
@@ -175,16 +168,8 @@ i {
   }
 }
 
-.part2 {
-  background-color: var(--fifth-color);
-}
-
-.part2 h1 {
-  color: var(--primary-color);
-}
-
 #spin {
-  color: var(--third-color);
+  color: var(--primary-color);
 }
 
 #spin:after {

@@ -4,11 +4,11 @@
 }
 
 :root {
-  --primary-color: #F1E8E6;
-  --secondary-color: #EDD2CB;
-  --third-color: #F55951;
-  --fourth-color: #543C52;
-  --fifth-color: #361D32;
+  --fifth-color: #F1E8E6;
+  --fourth-color: #EDD2CB;
+  --primary-color: #F55951;
+  --secondary-color: #543C52;
+  --third-color: #361D32;
 }
 
 body {

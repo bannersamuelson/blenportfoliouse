@@ -1,6 +1,6 @@
 .backbtn {
   text-decoration: none;
-  color: black
+  color: var(--secondary-color)
 }
 
 .backbtn:hover {
@@ -9,11 +9,15 @@
 
 i {
   padding: 0px 10px 0px 0px;
-  color: black;
+  color: var(--secondary-color);
   position: relative;
   top: 1px;
 }
 
 .banner img {
   object-fit: cover;
+}
+
+.description {
+  color: var(--secondary-color);
 }

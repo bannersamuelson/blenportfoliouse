@@ -1,5 +1,7 @@
 .foodbox {
   padding: 10px 10px;
+  color: var(--secondary-color);
+  font-family: aperculight;
 }
 
 .foodbox img {
@@ -16,7 +18,7 @@
 
 i {
   padding: 0px 10px;
-  color: var(--third-color);
+  color: var(--secondary-color);
   position: relative;
   top: 1px;
 }
@@ -31,9 +33,13 @@ i {
 
 .backbtn {
   text-decoration: none;
-  color: var(--third-color)
+  color: var(--secondary-color)
 }
 
 .backbtn:hover {
   text-decoration: underline;
+}
+
+.buybtn {
+  color: var(--secondary-color)
 }
