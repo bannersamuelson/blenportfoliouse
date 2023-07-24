@@ -1,6 +1,6 @@
 .where i {
   padding: 20px 20px;
-  color: black;
+  color: var(--primary-color);
   font-size: 2rem;
 }
 

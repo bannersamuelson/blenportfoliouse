@@ -1,6 +1,7 @@
-<div class="container mt-5 mb-5">
+<div class="container">
   <div class="row p-5">
-    <h1 class="mt-5 text-black">Projects</h1>
+    <a class="py-3 backbtn" routerLink="/"><i class="bi bi-chevron-left"></i>Home</a>
+    <h1 class="mt-5">Projects</h1>
     <div class="col-lg-4" *ngFor="let fd of foodData">
       <div class="foodbox my-4">
         <a [routerLink]="['/projects',fd.id]"><img src="{{fd.projectImg}}"></a>

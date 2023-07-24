@@ -1,71 +1,30 @@
-<!-- <nav class="navbar navbar-expand-lg">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light">
   <div class="container-fluid">
-    <a class="navbar-brand" routerLink="">Blen Amare</a>
+    <a class="navbar-brand" data-bs-toggle="collapse" routerLink="" data-bs-target=".navbar-collapse.show"><img
+        src="../../../assets/logo.png" alt="blen logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
+      <ul class="px-5 navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link" routerLink="" routerLinkActive="active-link"
-            [routerLinkActiveOptions]="{exact:true}">HOME</a>
+          <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink=""
+            routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="projects" routerLinkActive="active-link">PROJECTS</a>
+          <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="projects"
+            routerLinkActive="active-link">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="about" routerLinkActive="active-link">ABOUT</a>
+          <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="about"
+            routerLinkActive="active-link">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="contact" routerLinkActive="active-link">CONTACT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://www.instagram.com/bilu_asres/" target="_blank"><i
-              class="bi bi-instagram"></i></a>
+          <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" routerLink="contact"
+            routerLinkActive="active-link">Contact</a>
         </li>
       </ul>
     </div>
   </div>
-</nav> -->
-<div class="navigation">
-
-  <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
-  <label for="nav-toggle" class="navigation__button">
-    <span class="navigation__icon" aria-label="toggle navigation menu"></span>
-  </label>
-  <a class="navbar-brand" routerLink="/">Blen Amare</a>
-
-  <div class="navigation__background"></div>
-  <nav class="navigation__nav" role="navigation">
-    <ul class="navigation__list">
-      <li class="navigation__item">
-        <a><label for="nav-toggle" class="navigation__button" routerLink="" class="navigation__link">
-            <h1 class="pt-5 mt-5 text-black">HOME</h1>
-          </label></a>
-      </li>
-      <li class="navigation__item">
-        <a><label for="nav-toggle" class="navigation__button" routerLink="projects" class="navigation__link">
-            <h1 class="text-black">PROJECTS</h1>
-          </label></a>
-      </li>
-      <li class="navigation__item">
-        <a><label for="nav-toggle" class="navigation__button" routerLink="about" class="navigation__link">
-            <h1 class="text-black">ABOUT</h1>
-          </label></a>
-      </li>
-      <li class="navigation__item">
-        <a><label for="nav-toggle" class="navigation__button" routerLink="contact" class="navigation__link">
-            <h1 class="text-black">CONTACT</h1>
-          </label></a>
-      </li>
-      <li class="navigation__item my-5">
-        <a><label for="nav-toggle" class="navigation__button" href="https://www.instagram.com/bilu_asres/"
-            target="_blank" class="navigation__link">
-            <i class="bi bi-instagram"></i>
-          </label></a>
-      </li>
-    </ul>
-  </nav>
-</div>
+</nav>

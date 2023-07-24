@@ -4,14 +4,17 @@
 }
 
 :root {
-  --primary-color: #3FC060;
-  --secondary-color: #162328;
+  --primary-color: #F1E8E6;
+  --secondary-color: #EDD2CB;
+  --third-color: #F55951;
+  --fourth-color: #543C52;
+  --fifth-color: #361D32;
 }
 
 body {
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f1e6;
+  background-color: var(--primary-color);
 }
 
 @font-face {
@@ -20,7 +23,7 @@ body {
 }
 
 h1 {
-  color: #fff;
+  color: var(--third-color);
   font-size: 60px;
   font-family: aperculight;
 }

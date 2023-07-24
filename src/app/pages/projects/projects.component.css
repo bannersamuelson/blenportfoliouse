@@ -12,12 +12,11 @@
 .foodbox h2 {
   font-size: 18px;
   margin-top: 20px;
-  font-weight: ;
 }
 
 i {
   padding: 0px 10px;
-  color: black;
+  color: var(--third-color);
   position: relative;
   top: 1px;
 }
@@ -27,5 +26,14 @@ i {
 }
 
 .foodbox a:hover {
+  text-decoration: underline;
+}
+
+.backbtn {
+  text-decoration: none;
+  color: var(--third-color)
+}
+
+.backbtn:hover {
   text-decoration: underline;
 }
