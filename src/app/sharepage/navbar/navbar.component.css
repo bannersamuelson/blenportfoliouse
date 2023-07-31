@@ -98,3 +98,33 @@
 .navbar-toggler:not(.collapsed) .navbar-toggler-icon::after {
   transform: rotate(-90deg) translateX(7px);
 }
+
+.where i {
+  padding: 0px 20px;
+  color: var(--third-color);
+  font-size: 1.5rem;
+}
+
+i {
+  padding: 0px 10px;
+  color: var(--primary-color);
+  position: relative;
+  top: 1px;
+}
+
+.where i:hover {
+  color: var(--primary-color);
+}
+
+
+@media screen and (min-width:990px) {
+
+  .link {
+    display: none
+  }
+
+  .mail {
+    display: none
+  }
+
+}
