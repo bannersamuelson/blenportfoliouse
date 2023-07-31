@@ -32,9 +32,12 @@
   .navbar-collapse.show {
     height: calc(100vh - 56px);
     transition: height .0s ease;
-    padding-top: 175px;
+    padding-top: 150px;
   }
 
+  .where {
+    padding-top: 50px;
+  }
 }
 
 .navbar-toggler {

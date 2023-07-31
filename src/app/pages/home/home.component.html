@@ -22,7 +22,7 @@
           <div class="proimg">
             <a [routerLink]="['/projects',fd.id]"><img n src="{{fd.projectImg}}" /></a>
           </div>
-          <div class="mt-2 mb-5 viewmore">
+          <div class="mt-2 mb-3 viewmore">
             <h5 class="mt-4"><a [routerLink]="['/projects',fd.id]">{{fd.projectName}}<i class="bi bi-chevron-right"></i>
               </a>
             </h5>
@@ -32,7 +32,9 @@
         </div>
       </div>
     </div>
-    <a routerLink="projects" class="justify-content-center col-6 text-center viewmorebtn">view more</a>
+    <div class="row justify-content-center">
+      <a routerLink="projects" class="col-lg-2 col-6 col-md-4 text-center viewmorebtn">view more</a>
+    </div>
   </div>
 </div>
 
