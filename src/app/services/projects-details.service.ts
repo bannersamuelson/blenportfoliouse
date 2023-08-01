@@ -72,12 +72,12 @@ export class ProjectDetailsService {
     },
     {
       id: 4,
-      projectName: "Christopher Fareed App",
+      projectName: "Christopher Fareed",
       projectDetails: "A homely mix of mashed potato and veggies, seasoned with Indian spices. A filling sure to take you back to mom's kitchen.",
       projectImg: "../../assets/cf/CF2.png",
       projectImg1: "../../assets/cf/homescreen.jpeg",
-      projectImg2: "../../assets/cf/laptop.jpeg",
-      projectImg3: "../../assets/cf/ourprojects.jpeg",
+      projectImg2: "../../assets/cf/ourprojects.jpeg",
+      projectImg3: "../../assets/cf/laptop.jpeg",
     },
     {
       id: 5,
