@@ -34,8 +34,8 @@ export class ProjectDetailsService {
       projectDetails: "Bahel Coffee Roasters is a specialty coffee roaster soon to open in Addis Ababa, Ethiopia. The word Bahal means ‘culture’ in the Amharic language. Bahel's mission is to create a space with the community for all to enjoy the highest quality coffee with a cultural touch. The visual identity was developed this in mind, helping to create a brand that feels approachable. The colors used to develop this brand was inspired by simple yet elegant furniture color schemes that will be used in the store."
 
       ,
-      projectImg: "../../assets/bahel/signpost.jpeg",
-      projectImg1: "../../assets/bahel/mainimage.jpeg",
+      projectImg1: "../../assets/bahel/signpost.jpeg",
+      projectImg: "../../assets/bahel/mainimage.jpeg",
       projectImg2: "../../assets/bahel/localshop.jpeg",
       projectImg3: "../../assets/bahel/coffee1.jpeg",
       projectImg4: "../../assets/bahel/coffee2.jpeg",
@@ -49,10 +49,10 @@ export class ProjectDetailsService {
       id: 3,
       projectName: "Naysam",
       projectDetails: "Naysam is a blend of mild cleansers and ¼ moisturizing cream, Naysam’s iconic body wash leaves skin clean, soft and smooth.",
-      projectImg: "../../assets/naysam/Redwood.jpg",
+      projectImg3: "../../assets/naysam/Redwood.jpg",
       projectImg1: "../../assets/naysam/1.jpg",
       projectImg2: "../../assets/naysam/2.jpg",
-      projectImg3: "../../assets/naysam/3.jpg",
+      projectImg: "../../assets/naysam/3.jpg",
       projectImg4: "../../assets/naysam/4.jpg",
       projectImg5: "../../assets/naysam/5.jpg",
       projectImg6: "../../assets/naysam/6.jpg",
