@@ -37,7 +37,7 @@
   .navbar-collapse.show {
     height: calc(100vh - 56px);
     transition: height .0s ease;
-    padding-top: 150px;
+    padding-top: 100px;
   }
 
   .where {

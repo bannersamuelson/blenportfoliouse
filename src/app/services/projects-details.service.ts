@@ -83,13 +83,19 @@ export class ProjectDetailsService {
       id: 5,
       projectName: "Geneia",
       projectDetails: "(Eggless) Indulge in richly decadent chocolate brownie crafted with love & topped with bitter-sweet chocolate that provides ultra-rich chocolate experience.",
-      projectImg: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/iqlmbg1hlyc0dspdyzzv"
+      projectImg: "../../assets/geneia/theon.jpeg",
+      projectImg4: "../../assets/geneia/thirdimg.png",
+      projectImg3: "../../assets/geneia/fourthimg.png",
+      projectImg2: "../../assets/geneia/5thimg.png",
+      projectImg1: "../../assets/geneia/secondimg.png",
     },
     {
       id: 6,
-      projectName: "Christopher Fareed",
+      projectName: "B&B Interior Design",
       projectDetails: "Oreo ice cream",
-      projectImg: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/wtj8esaeslvlscv8glj6"
+      projectImg: "../../assets/bb/main.jpeg",
+      projectImg4: "../../assets/bb/img2.jpeg",
+      projectImg3: "../../assets/bb/img1.jpeg",
     }
   ]
 
