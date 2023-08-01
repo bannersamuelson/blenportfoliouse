@@ -8,19 +8,19 @@
 }
 
 .contactbox {
-  background-color: var(--secondary-color);
+  background-color: var(--fourth-color);
   padding: 50px;
-  color: var(--fourth-color)
+  color: var(--secondary-color)
 }
 
 .getintouch {
-  color: var(--fourth-color);
+  color: var(--secondary-color);
   padding: 25px 0;
 }
 
 a {
   text-decoration: none;
-  color: var(--fourth-color);
+  color: var(--secondary-color);
 }
 
 a:hover {
@@ -29,7 +29,7 @@ a:hover {
 
 .where i {
   padding: 0px 20px;
-  color: var(--fourth-color);
+  color: var(--secondary-color);
   font-size: 1.5rem;
 }
 

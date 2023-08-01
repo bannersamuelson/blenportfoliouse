@@ -7,3 +7,51 @@
 .where i:hover {
   color: var(--primary-color);
 }
+
+/* contact */
+.contact {
+  height: 100vh;
+  border-radius: 50px;
+}
+
+.contactbox {
+  background-color: var(--secondary-color);
+  padding: 50px;
+  color: var(--fourth-color);
+  border-radius: 25px;
+}
+
+.getintouch {
+  color: var(--fourth-color);
+  padding: 15px 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.where i {
+  padding: 0px 20px;
+  color: var(--fourth-color);
+  font-size: 1.5rem;
+}
+
+i {
+  padding: 0px;
+  color: var(--primary-color);
+  position: relative;
+}
+
+.where i:hover {
+  color: var(--primary-color);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
