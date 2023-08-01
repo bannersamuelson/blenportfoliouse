@@ -1,35 +1,49 @@
-.foodbox {
-  padding: 10px 10px;
-  color: var(--secondary-color);
-  font-family: aperculight;
+p {
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 5px;
 }
 
-.foodbox img {
+.proImg {
+  overflow: hidden;
+
+}
+
+.projectbox {
+  max-width: 350px;
+}
+
+.projectbox img {
   width: 100%;
   height: 250px;
   object-fit: cover;
   border-radius: 5px;
+  overflow: hidden;
+
 }
 
-.foodbox h2 {
-  font-size: 18px;
-  margin-top: 20px;
+.projectbox img:hover {
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -moz-transform: scale(1.5);
+  /* Firefox */
+  -webkit-transform: scale(1.5);
+  /* Safari and Chrome */
+  -o-transform: scale(1.5);
+  /* Opera */
+  transition: 500ms;
 }
 
-i {
-  padding: 0px 10px;
-  color: var(--secondary-color);
-  position: relative;
-  top: 1px;
-}
-
-.foodbox a {
+.projectbox a {
   text-decoration: none;
+  color: var(--secondary-color);
 }
 
-.foodbox a:hover {
+.projectbox a:hover {
   text-decoration: underline;
 }
+
 
 .backbtn {
   text-decoration: none;

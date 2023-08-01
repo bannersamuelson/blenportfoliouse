@@ -12,18 +12,18 @@
   </div>
 </div>
 
-<!-- foodbox  -->
-<div class="py-5 part2">
+<!-- Projects  -->
+<div class="some py-5 part2">
   <div class="justify-content-center m-5 my-5">
     <h1 class="text-center my-4 pt-3">Some of my work</h1>
     <div class="row">
-      <div class="col-lg-3 my-3 mx-auto mt-3" *ngFor="let fd of foodData;index as i">
-        <div class="my-3 foodbox" *ngIf="i<=3">
+      <div class="col-xl-3 my-3 mx-auto mt-3" *ngFor="let fd of foodData;index as i">
+        <div class="my-3 mx-auto projectbox" *ngIf="i<=3">
           <div class="proimg">
             <a [routerLink]="['/projects',fd.id]"><img n src="{{fd.projectImg}}" /></a>
           </div>
           <div class="mt-2 mb-3 viewmore">
-            <h5 class="mt-4"><a [routerLink]="['/projects',fd.id]">{{fd.projectName}}<i class="bi bi-chevron-right"></i>
+            <h5 class="mt-4"><a [routerLink]="['/projects',fd.id]">{{fd.projectName}}
               </a>
             </h5>
           </div>
@@ -41,7 +41,7 @@
 <!-- brands I've worked with -->
 <div class="bggrid">
   <div class="p-5 row">
-    <h1 class="pb-4 brands text-center text-white">Some companies that have used my work:</h1>
+    <h1 class="pb-5 brands text-center text-white">Some companies that have used my work:</h1>
     <div class="col-12 col-sm-6 col-md-4" alt="amazon prime">
       <img src="../../../assets/amazonprime.png" alt="amazon prime" class="px-5 py-3 img-fluid" />
     </div>

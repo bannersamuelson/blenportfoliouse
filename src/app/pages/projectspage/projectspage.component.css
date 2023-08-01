@@ -1,17 +1,12 @@
 .backbtn {
   text-decoration: none;
-  color: var(--secondary-color)
+  color: var(--secondary-color);
+  position: relative;
+  left: 25px;
 }
 
 .backbtn:hover {
   text-decoration: underline;
-}
-
-i {
-  padding: 0px 10px 0px 0px;
-  color: var(--secondary-color);
-  position: relative;
-  top: 1px;
 }
 
 .banner img {
@@ -20,4 +15,8 @@ i {
 
 .description {
   color: var(--secondary-color);
+}
+
+.main {
+  font-size: 30px;
 }

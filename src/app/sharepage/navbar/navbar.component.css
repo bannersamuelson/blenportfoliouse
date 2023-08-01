@@ -17,6 +17,11 @@
   z-index: 2;
 }
 
+.nav-item {
+  align-content: center;
+  justify-content: center;
+}
+
 @media screen and (max-width:990px) {
 
   .navbar-collapse.show,

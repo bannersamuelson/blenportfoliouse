@@ -27,7 +27,6 @@ export class ProjectDetailsService {
       projectImg10: "../../assets/curiosity/JFK.jpeg",
       projectImg11: "../../assets/curiosity/lightonearth.jpeg",
       projectImg12: "../../assets/curiosity/naturesfightclub.jpeg",
-      projectImg13: "../../assets/curiosity/winattrivianight.jpeg",
     },
     {
       id: 2,
@@ -73,9 +72,12 @@ export class ProjectDetailsService {
     },
     {
       id: 4,
-      projectName: "HerFit App",
+      projectName: "Christopher Fareed App",
       projectDetails: "A homely mix of mashed potato and veggies, seasoned with Indian spices. A filling sure to take you back to mom's kitchen.",
-      projectImg: "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_1024/l2ng6gtge30sqaafqng7"
+      projectImg: "../../assets/cf/CF2.png",
+      projectImg1: "../../assets/cf/homescreen.jpeg",
+      projectImg2: "../../assets/cf/laptop.jpeg",
+      projectImg3: "../../assets/cf/ourprojects.jpeg",
     },
     {
       id: 5,

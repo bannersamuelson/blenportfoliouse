@@ -3,15 +3,22 @@
     <a class="py-3 backbtn" routerLink="/"><i class="bi bi-chevron-left"></i>Home</a>
     <h1 class="mt-5">Projects</h1>
     <div class="col-lg-4" *ngFor="let fd of foodData">
-      <div class="foodbox my-4">
-        <a [routerLink]="['/projects',fd.id]"><img src="{{fd.projectImg}}"></a>
-        <h2>{{fd.projectName}}</h2>
-        <a class="buybtn" [routerLink]="['/projects',fd.id]">See details<i class="bi bi-chevron-right"></i></a>
+      <div class="mx-auto projectbox my-4">
+        <div class="proImg">
+          <a [routerLink]="['/projects',fd.id]"><img class="proimg" src="{{fd.projectImg}}"></a>
+        </div>
+        <p><a class="projectpage" [routerLink]="['/projects',fd.id]">{{fd.projectName}}</a></p>
       </div>
     </div>
-    <div class="col-12">
-      <img class="px-2 img-fluid col-6 mb-5" src="../../../assets/palmy.jpg" alt="cover image" />
-      <img class="px-2 img-fluid col-6 mb-5" src="../../../assets/palm.jpg" alt="cover image" />
+    <div class="pt-5 mt-5 col-12">
+      <img class="px-2 img-fluid col-6 mb-5" src="../../../assets/curiosity/anthonybourdain.jpeg" alt="cover image" />
+      <img class="px-2 img-fluid col-6 mb-5" src="../../../assets/bahel/localshop.jpeg" alt="cover image" />
+      <img class="px-2 img-fluid col-6 mb-5" src="../../../assets/naysam/1.jpg" alt="cover image" />
+      <img class="px-2 img-fluid col-6 mb-5" src="../../../assets/curiosity/fathersday.png" alt="cover image" />
+      <img class="px-2 img-fluid col-6 mb-5" src="../../../assets/curiosity/JFK.jpeg" alt="cover image" />
+      <img class="px-2 img-fluid col-6 mb-5" src="../../../assets/bahel/coffee3.jpeg" alt="cover image" />
+      <img class="px-2 img-fluid col-6 mb-5" src="../../../assets/naysam/5.jpg" alt="cover image" />
+      <img class="px-2 img-fluid col-6 mb-5" src="../../../assets/curiosity/adpromo.png" alt="cover image" />
     </div>
   </div>
 
