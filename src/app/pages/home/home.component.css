@@ -146,7 +146,7 @@
   font-size: 2rem;
 }
 
-/* i {
+i {
   padding: 0px 10px;
   color: var(--secondary-color);
   position: relative;
@@ -216,4 +216,4 @@
   80% {
     content: "Presentation";
   }
-} */
+}
