@@ -14,7 +14,7 @@ export class ProjectDetailsService {
       id: 1,
       projectName: "Curiosity Stream",
       projectDetails: "Curiosity Stream 2",
-      projectImg: "assets/curiosity/CS.png",
+      projectImg: "docs/assets/curiosity/CS.png",
       projectImg1: "assets/curiosity/adpromo.png",
       projectImg2: "assets/curiosity/anthonybourdain.jpeg",
       projectImg3: "assets/curiosity/becomingmartian.jpeg",
